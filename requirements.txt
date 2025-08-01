@@ -1,0 +1,6 @@
+kafka-python
+psycopg2-binary
+textblob
+streamlit
+sqlalchemy 
+faker
