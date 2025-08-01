@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS tweets (
+  id SERIAL PRIMARY KEY,
+  tweet TEXT,
+  sentiment TEXT,
+  polarity REAL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
